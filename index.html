@@ -16,11 +16,12 @@
             <h2>Getting Started</h2>
             <p>Welcome to our interactive tutorial! Follow the steps below:</p>
             <ol>
+                <img src="image.jpg" loading="lazy" alt="Flower Image">
                 <li>Step 1: Lorem ipsum dolor sit amet.</li>
                 <li>Step 2: Consectetur adipiscing elit.</li>
                 <li>Step 3: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
             </ol>
-            <button onclick="nextSection()">Next</button>
+            <div class="btn" role="button" tabindex="0" onclick="nextSection()">Next</div>
         </section>
         
 
@@ -34,8 +35,8 @@
                 <li>HTML Forms: &lt;form&gt;, &lt;input&gt;, &lt;button&gt;, etc.</li>
             </ul>
             <!-- Add your tutorial content here -->
-            <button onclick="prevSection()">Previous</button>
-            <button onclick="nextSection()">Next</button>
+            <div>class="btn" role="button" tabindex="0" onclick="prevSection()">Previous</div>
+            <div>class="btn" role="button" onclick="nextSection()">Next</div>
         </section>
 
         <!-- Add more sections as needed -->
